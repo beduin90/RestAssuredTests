@@ -17,7 +17,7 @@ public class PingTest  extends FuncionalTest{
     public void verifyBodyContainsString() {
 
         given().when().get("/profile").then()
-                .body(containsString("aaa"));
+                .body(containsString("name"));
     }
 
 
